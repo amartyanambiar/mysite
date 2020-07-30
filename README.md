@@ -1,1 +1,1 @@
-https://amartyanambiar.github.io/mySite/
+https://amartyanambiar.github.io/mysite/
