@@ -5,8 +5,26 @@
   <link rel='icon' href='pics/mypic.png' type='image/x-png'/ >
   <title>Amartya's Personal Site</title>
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+.example {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+@media screen and (min-width: 600px) {
+ .example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .example {
+    font-size: 30px;
+  }
+}
+</style>
   </head>
-  <body>
+  <body class="example">
   <table cellspacing="20">
     <tr>
       <td><img src="pics/mypic.png" alt="Amartya Profile Pic" width="160" height="160"></td>
